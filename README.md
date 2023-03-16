@@ -1,5 +1,5 @@
 # spatial_computer_vision
-Tools for converting between large-format spatial imagery and non-spatial tiles for computer vision
+<h3>Tools for converting between large-format spatial imagery and non-spatial tiles for computer vision</h3>
 
 [tile_orthomosaic](https://github.com/gl7176/spatial_computer_vision/blob/main/tile_orthomosaic.ipynb) splits a large-format spatial image into small tiles of a specified dimension, with a specified overlap between adjacent tiles, while preserving spatial metadata in a json file (default name: tiling_scheme.json) that can be used to reintegrate data from the unreferenced tiles into a spatially referenced dataset.
 
